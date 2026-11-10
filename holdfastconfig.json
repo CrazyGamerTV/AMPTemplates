@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "DisplayName": "Servername",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Allgemein:settings:1",
+    "Description": "",
+    "FieldName": "server_name",
+    "InputType": "text",
+    "ParamFieldName": "server_name",
+    "DefaultValue": "RHP",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Region",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Allgemein:settings:1",
+    "Description": "",
+    "FieldName": "server_region",
+    "InputType": "text",
+    "ParamFieldName": "server_region",
+    "DefaultValue": "europe",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Willkommensnachricht",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Allgemein:settings:1",
+    "Description": "",
+    "FieldName": "server_welcome_message",
+    "InputType": "text",
+    "ParamFieldName": "server_welcome_message",
+    "DefaultValue": "Willkommen auf RHP!",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Intro-Titel",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Allgemein:settings:1",
+    "Description": "",
+    "FieldName": "server_intro_title",
+    "InputType": "text",
+    "ParamFieldName": "server_intro_title",
+    "DefaultValue": "Willkommen!",
+    "EnumValues": {}
+  }
+]
