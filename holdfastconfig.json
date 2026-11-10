@@ -42,5 +42,49 @@
     "ParamFieldName": "server_intro_title",
     "DefaultValue": "Willkommen!",
     "EnumValues": {}
+  },
+  {
+    "DisplayName": "Intro-Text",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Allgemein:settings:1",
+    "Description": "",
+    "FieldName": "server_intro_body",
+    "InputType": "text",
+    "ParamFieldName": "server_intro_body",
+    "DefaultValue": "This is a server fresh of the assembly line",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Broadcast-Modus",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Netzwerk:network:2",
+    "Description": "",
+    "FieldName": "network_broadcast_mode",
+    "InputType": "text",
+    "ParamFieldName": "network_broadcast_mode",
+    "DefaultValue": "Standard",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Spielport",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Netzwerk:network:2",
+    "Description": "",
+    "FieldName": "server_port",
+    "InputType": "number",
+    "ParamFieldName": "server_port",
+    "DefaultValue": "20100",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Steam-Query-Port",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Netzwerk:network:2",
+    "Description": "",
+    "FieldName": "steam_query_port",
+    "InputType": "number",
+    "ParamFieldName": "steam_query_port",
+    "DefaultValue": "27000",
+    "EnumValues": {}
   }
 ]
