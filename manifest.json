@@ -1,11 +1,9 @@
 {
-    "id": "f697a381-453d-45a7-9321-f0c902e59bd8",
-    "authors": [
-        "RHP"
-    ],
-    "origin": "local",
-    "url": "local",
-    "imagefile": "",
-    "prefix": "RHP",
-    "repotype": "AppTemplates"
+  "id": "f697a381-453d-45a7-9321-f0c902e59bd8",
+  "authors": ["RHP"],
+  "origin": "https://github.com/CrazyGamerTV/AMPTemplates.git",
+  "url": "https://github.com/CrazyGamerTV/AMPTemplates",
+  "imagefile": "",
+  "prefix": "RHP",
+  "repotype": "AppTemplates"
 }
