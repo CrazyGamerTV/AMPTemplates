@@ -1,6 +1,6 @@
 [
   {
-    "ConfigFile": "serverconfig_amp_test.txt",
+    "ConfigFile": "serverconfig_rhp_staging.txt",
     "AutoMap": true,
     "Importable": true,
     "ConfigType": "kvp",
