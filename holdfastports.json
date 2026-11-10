@@ -1,0 +1,20 @@
+[
+    {
+        "Protocol": "UDP",
+        "Port": 20100,
+        "Ref": "GamePort",
+        "Name": "Game Port"
+    },
+    {
+        "Protocol": "UDP",
+        "Port": 8700,
+        "Ref": "SteamPort",
+        "Name": "Steam Communication"
+    },
+    {
+        "Protocol": "UDP",
+        "Port": 27000,
+        "Ref": "QueryPort",
+        "Name": "Steam Query"
+    }
+]
