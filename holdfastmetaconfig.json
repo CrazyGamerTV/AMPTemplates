@@ -1,6 +1,6 @@
 [
   {
-    "ConfigFile": "1424230/serverconfig_amp_test.txt",
+    "ConfigFile": "serverconfig_amp_test.txt",
     "AutoMap": true,
     "Importable": true,
     "ConfigType": "kvp",
