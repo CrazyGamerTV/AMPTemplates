@@ -86,5 +86,1091 @@
     "ParamFieldName": "steam_query_port",
     "DefaultValue": "27000",
     "EnumValues": {}
+  },
+  {
+    "DisplayName": "Performancewarnung anzeigen",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Allgemein:settings:1",
+    "Description": "",
+    "FieldName": "show_serverperformance_warning",
+    "InputType": "checkbox",
+    "ParamFieldName": "show_serverperformance_warning",
+    "EnumValues": {
+      "False": "false",
+      "True": "true"
+    }
+  },
+  {
+    "DisplayName": "Zufällige Startkarte",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Allgemein:settings:1",
+    "Description": "",
+    "FieldName": "map_rotation_start_randomise",
+    "InputType": "checkbox",
+    "ParamFieldName": "map_rotation_start_randomise",
+    "EnumValues": {
+      "False": "false",
+      "True": "true"
+    }
+  },
+  {
+    "DisplayName": "Frontlines-Modus",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Allgemein:settings:1",
+    "Description": "",
+    "FieldName": "frontlines_mode",
+    "InputType": "checkbox",
+    "ParamFieldName": "frontlines_mode",
+    "EnumValues": {
+      "False": "false",
+      "True": "true"
+    }
+  },
+  {
+    "DisplayName": "Spielerpasswort",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Sicherheit:shield:2",
+    "Description": "Nur Testkonfiguration. Echte Zugangsdaten nicht in GitHub speichern.",
+    "FieldName": "server_password",
+    "InputType": "Password",
+    "ParamFieldName": "server_password",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Administratorpasswort",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Sicherheit:shield:2",
+    "Description": "Nur Testkonfiguration. Echte Zugangsdaten nicht in GitHub speichern.",
+    "FieldName": "server_admin_password",
+    "InputType": "Password",
+    "ParamFieldName": "server_admin_password",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Steam-Kommunikationsport",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Netzwerk:network:3",
+    "Description": "Muss mit der AMP-Portzuweisung abgestimmt werden.",
+    "FieldName": "steam_communications_port",
+    "InputType": "number",
+    "ParamFieldName": "steam_communications_port",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Kartenabstimmung aktiv",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Kartenwahl:map:4",
+    "Description": "",
+    "FieldName": "map_voting_enabled",
+    "InputType": "checkbox",
+    "ParamFieldName": "map_voting_enabled",
+    "EnumValues": {
+      "False": "false",
+      "True": "true"
+    }
+  },
+  {
+    "DisplayName": "Dauer der Kartenabstimmung (s)",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Kartenwahl:map:4",
+    "Description": "",
+    "FieldName": "map_voting_duration",
+    "InputType": "number",
+    "ParamFieldName": "map_voting_duration",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Gleiche Karte erneut erlauben",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Kartenwahl:map:4",
+    "Description": "",
+    "FieldName": "map_voting_allow_same_map",
+    "InputType": "checkbox",
+    "ParamFieldName": "map_voting_allow_same_map",
+    "EnumValues": {
+      "False": "false",
+      "True": "true"
+    }
+  },
+  {
+    "DisplayName": "Kartenhistorie",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Kartenwahl:map:4",
+    "Description": "",
+    "FieldName": "map_voting_history_count",
+    "InputType": "number",
+    "ParamFieldName": "map_voting_history_count",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Maximale Abstimmungsoptionen",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Kartenwahl:map:4",
+    "Description": "",
+    "FieldName": "map_voting_max_choices",
+    "InputType": "number",
+    "ParamFieldName": "map_voting_max_choices",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Spielmodi für Abstimmung",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Kartenwahl:map:4",
+    "Description": "Mehrere durch Leerzeichen getrennte Modi.",
+    "FieldName": "map_voting_gameplay_modes",
+    "InputType": "text",
+    "ParamFieldName": "map_voting_gameplay_modes",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Abstimmungs-Protokolldatei",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Kartenwahl:map:4",
+    "Description": "",
+    "FieldName": "map_voting_log_file_path",
+    "InputType": "text",
+    "ParamFieldName": "map_voting_log_file_path",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Historie bei sehr wenig Spielern",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Kartenwahl:map:4",
+    "Description": "",
+    "FieldName": "map_voting_history_count_verylow",
+    "InputType": "number",
+    "ParamFieldName": "map_voting_history_count_verylow",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Historie bei wenig Spielern",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Kartenwahl:map:4",
+    "Description": "",
+    "FieldName": "map_voting_history_count_low",
+    "InputType": "number",
+    "ParamFieldName": "map_voting_history_count_low",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Historie bei mittlerer Spielerzahl",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Kartenwahl:map:4",
+    "Description": "",
+    "FieldName": "map_voting_history_count_medium",
+    "InputType": "number",
+    "ParamFieldName": "map_voting_history_count_medium",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Historie bei hoher Spielerzahl",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Kartenwahl:map:4",
+    "Description": "",
+    "FieldName": "map_voting_history_count_high",
+    "InputType": "number",
+    "ParamFieldName": "map_voting_history_count_high",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Zufällige Karte zur Auswahl",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Kartenwahl:map:4",
+    "Description": "",
+    "FieldName": "map_voting_include_random_choice",
+    "InputType": "checkbox",
+    "ParamFieldName": "map_voting_include_random_choice",
+    "EnumValues": {
+      "False": "false",
+      "True": "true"
+    }
+  },
+  {
+    "DisplayName": "Modi von Historie ausschließen",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Kartenwahl:map:4",
+    "Description": "",
+    "FieldName": "exclude_from_map_voting_history",
+    "InputType": "text",
+    "ParamFieldName": "exclude_from_map_voting_history",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Grenze geringe Spielerzahl",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Spielerzahlen:users:5",
+    "Description": "",
+    "FieldName": "population_low_min_players",
+    "InputType": "number",
+    "ParamFieldName": "population_low_min_players",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Grenze mittlere Spielerzahl",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Spielerzahlen:users:5",
+    "Description": "",
+    "FieldName": "population_medium_min_players",
+    "InputType": "number",
+    "ParamFieldName": "population_medium_min_players",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Grenze hohe Spielerzahl",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Spielerzahlen:users:5",
+    "Description": "",
+    "FieldName": "population_high_min_players",
+    "InputType": "number",
+    "ParamFieldName": "population_high_min_players",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Stealth-Capture sehr wenig Spieler",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Spielerzahlen:users:5",
+    "Description": "",
+    "FieldName": "conquest_stealthcap_reqplayers_verylow",
+    "InputType": "number",
+    "ParamFieldName": "conquest_stealthcap_reqplayers_verylow",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Stealth-Capture wenig Spieler",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Spielerzahlen:users:5",
+    "Description": "",
+    "FieldName": "conquest_stealthcap_reqplayers_low",
+    "InputType": "number",
+    "ParamFieldName": "conquest_stealthcap_reqplayers_low",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Stealth-Capture mittlere Spielerzahl",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Spielerzahlen:users:5",
+    "Description": "",
+    "FieldName": "conquest_stealthcap_reqplayers_medium",
+    "InputType": "number",
+    "ParamFieldName": "conquest_stealthcap_reqplayers_medium",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Stealth-Capture hohe Spielerzahl",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Spielerzahlen:users:5",
+    "Description": "",
+    "FieldName": "conquest_stealthcap_reqplayers_high",
+    "InputType": "number",
+    "ParamFieldName": "conquest_stealthcap_reqplayers_high",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Automatisches Herunterfahren nach (min)",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Neustart & Shutdown:clock:6",
+    "Description": "",
+    "FieldName": "server_autoshutdown_interval_minutes",
+    "InputType": "number",
+    "ParamFieldName": "server_autoshutdown_interval_minutes",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Shutdown-Zusatzzeit (min)",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Neustart & Shutdown:clock:6",
+    "Description": "",
+    "FieldName": "server_autoshutdown_overtime_minutes",
+    "InputType": "number",
+    "ParamFieldName": "server_autoshutdown_overtime_minutes",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Shutdown-Nachricht",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Neustart & Shutdown:clock:6",
+    "Description": "",
+    "FieldName": "server_autoshutdown_broadcasted_message",
+    "InputType": "text",
+    "ParamFieldName": "server_autoshutdown_broadcasted_message",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Shutdown-Hinweis alle (min)",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Neustart & Shutdown:clock:6",
+    "Description": "",
+    "FieldName": "server_autoshutdown_broadcasted_message_interval_minutes",
+    "InputType": "number",
+    "ParamFieldName": "server_autoshutdown_broadcasted_message_interval_minutes",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Automatischer Neustart nach (min)",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Neustart & Shutdown:clock:6",
+    "Description": "",
+    "FieldName": "server_autorestart_interval_minutes",
+    "InputType": "number",
+    "ParamFieldName": "server_autorestart_interval_minutes",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Neustart-Zusatzzeit (min)",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Neustart & Shutdown:clock:6",
+    "Description": "",
+    "FieldName": "server_autorestart_overtime_minutes",
+    "InputType": "number",
+    "ParamFieldName": "server_autorestart_overtime_minutes",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Neustart-Nachricht",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Neustart & Shutdown:clock:6",
+    "Description": "",
+    "FieldName": "server_autorestart_broadcasted_message",
+    "InputType": "text",
+    "ParamFieldName": "server_autorestart_broadcasted_message",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Neustart-Hinweis alle (min)",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Neustart & Shutdown:clock:6",
+    "Description": "",
+    "FieldName": "server_autorestart_broadcasted_message_interval_minutes",
+    "InputType": "number",
+    "ParamFieldName": "server_autorestart_broadcasted_message_interval_minutes",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Spawnen mitten in Runde",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Fraktionen & Spawns (globale Defaults):swords:7",
+    "Description": "",
+    "FieldName": "allow_midround_spawning",
+    "InputType": "checkbox",
+    "ParamFieldName": "allow_midround_spawning",
+    "EnumValues": {
+      "False": "false",
+      "True": "true"
+    }
+  },
+  {
+    "DisplayName": "Maximale Respawns (-1 unbegrenzt)",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Fraktionen & Spawns (globale Defaults):swords:7",
+    "Description": "",
+    "FieldName": "max_player_respawns",
+    "InputType": "number",
+    "ParamFieldName": "max_player_respawns",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Respawn-Tickets je Fraktion",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Fraktionen & Spawns (globale Defaults):swords:7",
+    "Description": "",
+    "FieldName": "reinforcements_per_faction",
+    "InputType": "number",
+    "ParamFieldName": "reinforcements_per_faction",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Maximale Fraktionspunkte",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Fraktionen & Spawns (globale Defaults):swords:7",
+    "Description": "",
+    "FieldName": "max_accumulated_faction_points",
+    "InputType": "number",
+    "ParamFieldName": "max_accumulated_faction_points",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Deathmatch-Siegeskills",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Fraktionen & Spawns (globale Defaults):swords:7",
+    "Description": "",
+    "FieldName": "deathmatch_max_kills",
+    "InputType": "number",
+    "ParamFieldName": "deathmatch_max_kills",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Fraktionsunterschied max.",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Fraktionen & Spawns (globale Defaults):swords:7",
+    "Description": "",
+    "FieldName": "faction_balancing_discrepancy_amount",
+    "InputType": "number",
+    "ParamFieldName": "faction_balancing_discrepancy_amount",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Fraktionsunterschied sehr wenige Spieler",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Fraktionen & Spawns (globale Defaults):swords:7",
+    "Description": "",
+    "FieldName": "faction_balancing_discrepancy_amount_very_low",
+    "InputType": "number",
+    "ParamFieldName": "faction_balancing_discrepancy_amount_very_low",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Fraktionsunterschied wenig Spieler",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Fraktionen & Spawns (globale Defaults):swords:7",
+    "Description": "",
+    "FieldName": "faction_balancing_discrepancy_amount_low",
+    "InputType": "number",
+    "ParamFieldName": "faction_balancing_discrepancy_amount_low",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Fraktionsunterschied mittlere Spielerzahl",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Fraktionen & Spawns (globale Defaults):swords:7",
+    "Description": "",
+    "FieldName": "faction_balancing_discrepancy_amount_medium",
+    "InputType": "number",
+    "ParamFieldName": "faction_balancing_discrepancy_amount_medium",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Fraktionsunterschied hohe Spielerzahl",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Fraktionen & Spawns (globale Defaults):swords:7",
+    "Description": "",
+    "FieldName": "faction_balancing_discrepancy_amount_high",
+    "InputType": "number",
+    "ParamFieldName": "faction_balancing_discrepancy_amount_high",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Fraktionsverhältnis",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Fraktionen & Spawns (globale Defaults):swords:7",
+    "Description": "Zwei Zahlen, z.B. 3 2",
+    "FieldName": "faction_balancing_ratio",
+    "InputType": "text",
+    "ParamFieldName": "faction_balancing_ratio",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Zufällige Fraktionszuteilung",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Fraktionen & Spawns (globale Defaults):swords:7",
+    "Description": "Attacking, Defending oder Both.",
+    "FieldName": "faction_randomiser",
+    "InputType": "enum",
+    "ParamFieldName": "faction_randomiser",
+    "EnumValues": {
+      "Attacking": "Attacking",
+      "Defending": "Defending",
+      "Both": "Both"
+    }
+  },
+  {
+    "DisplayName": "Spawnwelle (s)",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Fraktionen & Spawns (globale Defaults):swords:7",
+    "Description": "",
+    "FieldName": "wave_spawn_time_seconds",
+    "InputType": "number",
+    "ParamFieldName": "wave_spawn_time_seconds",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Kavalleriespawn (s)",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Fraktionen & Spawns (globale Defaults):swords:7",
+    "Description": "",
+    "FieldName": "wave_spawn_vehicle_time_seconds",
+    "InputType": "number",
+    "ParamFieldName": "wave_spawn_vehicle_time_seconds",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Dynamischer Spawn (s)",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Fraktionen & Spawns (globale Defaults):swords:7",
+    "Description": "",
+    "FieldName": "wave_spawn_dynamic_time_seconds",
+    "InputType": "number",
+    "ParamFieldName": "wave_spawn_dynamic_time_seconds",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Spawn-Schutz (max. 5 s)",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Fraktionen & Spawns (globale Defaults):swords:7",
+    "Description": "",
+    "FieldName": "spawn_immunity_timer",
+    "InputType": "number",
+    "ParamFieldName": "spawn_immunity_timer",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Spieltyp",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Gameplay (globale Defaults):gamepad-2:8",
+    "Description": "Standard oder Hardcore.",
+    "FieldName": "game_type",
+    "InputType": "enum",
+    "ParamFieldName": "game_type",
+    "EnumValues": {
+      "Standard": "Standard",
+      "Hardcore": "Hardcore"
+    }
+  },
+  {
+    "DisplayName": "Friendly Fire",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Gameplay (globale Defaults):gamepad-2:8",
+    "Description": "",
+    "FieldName": "friendly_fire",
+    "InputType": "checkbox",
+    "ParamFieldName": "friendly_fire",
+    "EnumValues": {
+      "False": "false",
+      "True": "true"
+    }
+  },
+  {
+    "DisplayName": "Nahkampf-Bounce ohne Friendly Fire",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Gameplay (globale Defaults):gamepad-2:8",
+    "Description": "",
+    "FieldName": "friendly_fire_melee_bounce",
+    "InputType": "checkbox",
+    "ParamFieldName": "friendly_fire_melee_bounce",
+    "EnumValues": {
+      "False": "false",
+      "True": "true"
+    }
+  },
+  {
+    "DisplayName": "Friendly-Fire-Schadensreflexion (%)",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Gameplay (globale Defaults):gamepad-2:8",
+    "Description": "",
+    "FieldName": "damage_split",
+    "InputType": "number",
+    "ParamFieldName": "damage_split",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Bajonett beim Spawn angebracht",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Gameplay (globale Defaults):gamepad-2:8",
+    "Description": "",
+    "FieldName": "start_bayonet_attached",
+    "InputType": "checkbox",
+    "ParamFieldName": "start_bayonet_attached",
+    "EnumValues": {
+      "False": "false",
+      "True": "true"
+    }
+  },
+  {
+    "DisplayName": "Nur Nahkampfwaffen",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Gameplay (globale Defaults):gamepad-2:8",
+    "Description": "",
+    "FieldName": "melee_weapons_only",
+    "InputType": "checkbox",
+    "ParamFieldName": "melee_weapons_only",
+    "EnumValues": {
+      "False": "false",
+      "True": "true"
+    }
+  },
+  {
+    "DisplayName": "Gegnernamen anzeigen",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Gameplay (globale Defaults):gamepad-2:8",
+    "Description": "",
+    "FieldName": "show_enemy_player_name_tags",
+    "InputType": "checkbox",
+    "ParamFieldName": "show_enemy_player_name_tags",
+    "EnumValues": {
+      "False": "false",
+      "True": "true"
+    }
+  },
+  {
+    "DisplayName": "Ingame-Admin-Konsole erlaubt",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Gameplay (globale Defaults):gamepad-2:8",
+    "Description": "",
+    "FieldName": "admin_console_allowed",
+    "InputType": "checkbox",
+    "ParamFieldName": "admin_console_allowed",
+    "EnumValues": {
+      "False": "false",
+      "True": "true"
+    }
+  },
+  {
+    "DisplayName": "Artillerie-Spawnabschnitte",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Gameplay (globale Defaults):gamepad-2:8",
+    "Description": "",
+    "FieldName": "artillery_spawn_sections_enabled",
+    "InputType": "checkbox",
+    "ParamFieldName": "artillery_spawn_sections_enabled",
+    "EnumValues": {
+      "False": "false",
+      "True": "true"
+    }
+  },
+  {
+    "DisplayName": "Offiziers-Chat aktiv",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Offiziere & Fähigkeiten:flag:9",
+    "Description": "",
+    "FieldName": "include_officer_only_chat",
+    "InputType": "checkbox",
+    "ParamFieldName": "include_officer_only_chat",
+    "EnumValues": {
+      "False": "false",
+      "True": "true"
+    }
+  },
+  {
+    "DisplayName": "Unteroffiziere im Offiziers-Chat",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Offiziere & Fähigkeiten:flag:9",
+    "Description": "",
+    "FieldName": "include_sergeants_in_officer_chat",
+    "InputType": "checkbox",
+    "ParamFieldName": "include_sergeants_in_officer_chat",
+    "EnumValues": {
+      "False": "false",
+      "True": "true"
+    }
+  },
+  {
+    "DisplayName": "Offiziersbefehle aktiv",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Offiziere & Fähigkeiten:flag:9",
+    "Description": "",
+    "FieldName": "class_system_orders",
+    "InputType": "checkbox",
+    "ParamFieldName": "class_system_orders",
+    "EnumValues": {
+      "False": "false",
+      "True": "true"
+    }
+  },
+  {
+    "DisplayName": "Feldlager/Tische aktiv",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Offiziere & Fähigkeiten:flag:9",
+    "Description": "",
+    "FieldName": "class_system_orders_reinforce",
+    "InputType": "checkbox",
+    "ParamFieldName": "class_system_orders_reinforce",
+    "EnumValues": {
+      "False": "false",
+      "True": "true"
+    }
+  },
+  {
+    "DisplayName": "Feldlager-Spawnlimit",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Offiziere & Fähigkeiten:flag:9",
+    "Description": "",
+    "FieldName": "class_system_orders_reinforce_limit",
+    "InputType": "number",
+    "ParamFieldName": "class_system_orders_reinforce_limit",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Flaggenbefehl aktiv",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Offiziere & Fähigkeiten:flag:9",
+    "Description": "",
+    "FieldName": "hoist_flag_order_enabled",
+    "InputType": "checkbox",
+    "ParamFieldName": "hoist_flag_order_enabled",
+    "EnumValues": {
+      "False": "false",
+      "True": "true"
+    }
+  },
+  {
+    "DisplayName": "Offiziere beritten spawnen",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Offiziere & Fähigkeiten:flag:9",
+    "Description": "",
+    "FieldName": "officers_spawn_mounted",
+    "InputType": "checkbox",
+    "ParamFieldName": "officers_spawn_mounted",
+    "EnumValues": {
+      "False": "false",
+      "True": "true"
+    }
+  },
+  {
+    "DisplayName": "Granatenfähigkeiten aktiv",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Offiziere & Fähigkeiten:flag:9",
+    "Description": "",
+    "FieldName": "grenade_abilities_enabled",
+    "InputType": "checkbox",
+    "ParamFieldName": "grenade_abilities_enabled",
+    "EnumValues": {
+      "False": "false",
+      "True": "true"
+    }
+  },
+  {
+    "DisplayName": "Granaten beschädigen Artillerie",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Offiziere & Fähigkeiten:flag:9",
+    "Description": "",
+    "FieldName": "grenades_damage_artillery",
+    "InputType": "checkbox",
+    "ParamFieldName": "grenades_damage_artillery",
+    "EnumValues": {
+      "False": "false",
+      "True": "true"
+    }
+  },
+  {
+    "DisplayName": "Conquest Tick-Belohnung",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Eroberung & Arena:target:10",
+    "Description": "",
+    "FieldName": "conquest_tick_reward",
+    "InputType": "number",
+    "ParamFieldName": "conquest_tick_reward",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Conquest-Tickintervall (s)",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Eroberung & Arena:target:10",
+    "Description": "",
+    "FieldName": "conquest_ticker_time_seconds",
+    "InputType": "number",
+    "ParamFieldName": "conquest_ticker_time_seconds",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Conquest-Tickets pro Eroberung",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Eroberung & Arena:target:10",
+    "Description": "",
+    "FieldName": "conquest_tickets_per_capture",
+    "InputType": "number",
+    "ParamFieldName": "conquest_tickets_per_capture",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Conquest maximale Tickets",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Eroberung & Arena:target:10",
+    "Description": "",
+    "FieldName": "conquest_max_tickets",
+    "InputType": "number",
+    "ParamFieldName": "conquest_max_tickets",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Gebietssperrzeit (s)",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Eroberung & Arena:target:10",
+    "Description": "",
+    "FieldName": "conquest_territory_lock_time_seconds",
+    "InputType": "number",
+    "ParamFieldName": "conquest_territory_lock_time_seconds",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Frontlines-Dominanzzeit (s)",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Eroberung & Arena:target:10",
+    "Description": "",
+    "FieldName": "frontline_offensive_domination_duration_seconds",
+    "InputType": "number",
+    "ParamFieldName": "frontline_offensive_domination_duration_seconds",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Arena Spawnfenster erste Runde (s)",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Eroberung & Arena:target:10",
+    "Description": "",
+    "FieldName": "round_spawn_close_timer_seconds",
+    "InputType": "number",
+    "ParamFieldName": "round_spawn_close_timer_seconds",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Arena Spawnfenster Folgerunden (s)",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Eroberung & Arena:target:10",
+    "Description": "",
+    "FieldName": "round_spawn_close_timer_seconds_between_rounds",
+    "InputType": "number",
+    "ParamFieldName": "round_spawn_close_timer_seconds_between_rounds",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Arena Rundenanzahl",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Eroberung & Arena:target:10",
+    "Description": "",
+    "FieldName": "amount_of_rounds",
+    "InputType": "number",
+    "ParamFieldName": "amount_of_rounds",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Arena Countdown (s)",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Eroberung & Arena:target:10",
+    "Description": "",
+    "FieldName": "round_countdown_timer_seconds",
+    "InputType": "number",
+    "ParamFieldName": "round_countdown_timer_seconds",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Natur-Preset",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Umgebung (globale Defaults):cloud-sun:11",
+    "Description": "none für Zufall, sonst gültiges Preset.",
+    "FieldName": "nature_preset",
+    "InputType": "text",
+    "ParamFieldName": "nature_preset",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Windrichtung",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Umgebung (globale Defaults):cloud-sun:11",
+    "Description": "",
+    "FieldName": "wind_direction",
+    "InputType": "text",
+    "ParamFieldName": "wind_direction",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Dynamischer Wind",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Umgebung (globale Defaults):cloud-sun:11",
+    "Description": "false oder true [minInterval maxInterval minTransition maxTransition]",
+    "FieldName": "dynamic_wind",
+    "InputType": "text",
+    "ParamFieldName": "dynamic_wind",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Kanonenboote statt Ruderboote",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Marine:ship:12",
+    "Description": "",
+    "FieldName": "gunboat_spawner_enabled",
+    "InputType": "checkbox",
+    "ParamFieldName": "gunboat_spawner_enabled",
+    "EnumValues": {
+      "False": "false",
+      "True": "true"
+    }
+  },
+  {
+    "DisplayName": "Schiffsrespawn (s)",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Marine:ship:12",
+    "Description": "",
+    "FieldName": "ships_respawn_timer",
+    "InputType": "number",
+    "ParamFieldName": "ships_respawn_timer",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Ruderboot-Cooldown (s)",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Marine:ship:12",
+    "Description": "",
+    "FieldName": "rowboat_cooldown_timer",
+    "InputType": "number",
+    "ParamFieldName": "rowboat_cooldown_timer",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Ruderboot-Cooldown beim Sinken (s)",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Marine:ship:12",
+    "Description": "",
+    "FieldName": "rowboat_cooldown_while_sinking_timer",
+    "InputType": "number",
+    "ParamFieldName": "rowboat_cooldown_while_sinking_timer",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Schiffe erobern",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Marine:ship:12",
+    "Description": "",
+    "FieldName": "ship_stealing",
+    "InputType": "checkbox",
+    "ParamFieldName": "ship_stealing",
+    "EnumValues": {
+      "False": "false",
+      "True": "true"
+    }
+  },
+  {
+    "DisplayName": "Schiffe bei Eroberung versenken",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Marine:ship:12",
+    "Description": "",
+    "FieldName": "sink_ships_on_capture",
+    "InputType": "checkbox",
+    "ParamFieldName": "sink_ships_on_capture",
+    "EnumValues": {
+      "False": "false",
+      "True": "true"
+    }
+  },
+  {
+    "DisplayName": "Respawn auf umkämpften Schiffen",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Marine:ship:12",
+    "Description": "",
+    "FieldName": "allow_respawn_on_contested_ships",
+    "InputType": "checkbox",
+    "ParamFieldName": "allow_respawn_on_contested_ships",
+    "EnumValues": {
+      "False": "false",
+      "True": "true"
+    }
+  },
+  {
+    "DisplayName": "Spawn auf eroberten Schiffen",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Marine:ship:12",
+    "Description": "",
+    "FieldName": "allow_spawn_on_captured_ships",
+    "InputType": "checkbox",
+    "ParamFieldName": "allow_spawn_on_captured_ships",
+    "EnumValues": {
+      "False": "false",
+      "True": "true"
+    }
+  },
+  {
+    "DisplayName": "Schiffe verlieren Ressourcen beim Sinken",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Marine:ship:12",
+    "Description": "",
+    "FieldName": "ships_drop_resources_on_sink",
+    "InputType": "checkbox",
+    "ParamFieldName": "ships_drop_resources_on_sink",
+    "EnumValues": {
+      "False": "false",
+      "True": "true"
+    }
+  },
+  {
+    "DisplayName": "Schiffs-Weltraummodus",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Marine:ship:12",
+    "Description": "",
+    "FieldName": "ships_spacemode",
+    "InputType": "checkbox",
+    "ParamFieldName": "ships_spacemode",
+    "EnumValues": {
+      "False": "false",
+      "True": "true"
+    }
+  },
+  {
+    "DisplayName": "Karte für sehr wenig Spieler verfügbar",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Weitere Optionen:sliders-horizontal:13",
+    "Description": "",
+    "FieldName": "population_verylow_playable",
+    "InputType": "checkbox",
+    "ParamFieldName": "population_verylow_playable",
+    "EnumValues": {
+      "False": "false",
+      "True": "true"
+    }
+  },
+  {
+    "DisplayName": "Karte für wenig Spieler verfügbar",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Weitere Optionen:sliders-horizontal:13",
+    "Description": "",
+    "FieldName": "population_low_playable",
+    "InputType": "checkbox",
+    "ParamFieldName": "population_low_playable",
+    "EnumValues": {
+      "False": "false",
+      "True": "true"
+    }
+  },
+  {
+    "DisplayName": "Karte für mittlere Spielerzahl verfügbar",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Weitere Optionen:sliders-horizontal:13",
+    "Description": "",
+    "FieldName": "population_medium_playable",
+    "InputType": "checkbox",
+    "ParamFieldName": "population_medium_playable",
+    "EnumValues": {
+      "False": "false",
+      "True": "true"
+    }
+  },
+  {
+    "DisplayName": "Karte für hohe Spielerzahl verfügbar",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Weitere Optionen:sliders-horizontal:13",
+    "Description": "",
+    "FieldName": "population_high_playable",
+    "InputType": "checkbox",
+    "ParamFieldName": "population_high_playable",
+    "EnumValues": {
+      "False": "false",
+      "True": "true"
+    }
+  },
+  {
+    "DisplayName": "Sapper-Material Angreifer",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Weitere Optionen:sliders-horizontal:13",
+    "Description": "",
+    "FieldName": "sappers_attacking_starting_materials",
+    "InputType": "number",
+    "ParamFieldName": "sappers_attacking_starting_materials",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Sapper-Material Verteidiger",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Weitere Optionen:sliders-horizontal:13",
+    "Description": "",
+    "FieldName": "sappers_defending_starting_materials",
+    "InputType": "number",
+    "ParamFieldName": "sappers_defending_starting_materials",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Saison-Override",
+    "Category": "Holdfast:stadia_controller",
+    "Subcategory": "Weitere Optionen:sliders-horizontal:13",
+    "Description": "",
+    "FieldName": "festive_season_override",
+    "InputType": "text",
+    "ParamFieldName": "festive_season_override",
+    "EnumValues": {}
   }
 ]
